@@ -116,7 +116,7 @@ else:
 #                     31.7 Последним оставить else, при выполнений которого в консоль выведется (“Unknow currency”)
 
 currency_convertor = item_2
-target_currency = input('Введите название валюты из предложенных: eur, uah, chf, rub, byn ')
+target_currency = input('Введите название валюты из предложенных: eur, uah, chf, rub, byn: ')
 if currency_convertor:
     if target_currency == 'eur':
         target_currency = eur_item
