@@ -114,7 +114,7 @@ for item in range(0, (range_count + 1)):
             print('-------- Inner_Step =', inner_item)
             if inner_item == 5:
                 inner_count = inner_item
-    print('-- inner_count =', inner_count)
+print('-- inner_count =', inner_count)
 
 print('------------------------------')
 # Сделать цикл for c переменной item который будет работать пока счётчик range досчитает от 0 до 20
@@ -133,3 +133,5 @@ for item in range(0, 20):
 print(('End_iteration ='), item)
 
 print('-----------THE END!!!------------')
+
+
